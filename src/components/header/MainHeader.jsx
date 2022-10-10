@@ -1,6 +1,7 @@
 import LogoSneakers from "@/assets/images/logo.svg"
 import Avatar from "@/assets/images/image-avatar.png"
 import MenuIcon from "@/components/icons/MenuIcon"
+import CartIcon from "@/components/icons/CartIcon"
 
 
 const MainHeader = () => {
@@ -18,7 +19,9 @@ const MainHeader = () => {
 				<a href="#">Contact</a>
 			</nav>
 			<div>
-				<button>Cart</button>
+                <button>
+                    <CartIcon></CartIcon>
+                </button>
 				<img src={Avatar} alt="" />
 			</div>
 		</header>
