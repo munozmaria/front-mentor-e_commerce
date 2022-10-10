@@ -1,12 +1,14 @@
-import LogoSneakers from './assets/images/logo.svg'
 
+import MainHeader from './components/header/MainHeader'
+import MainProduct from './components/products/MainProduct'
 
 const App = () => {
-    return (<>
-        <header>
-        <img src={LogoSneakers} alt="" />
-        </header>
-    </>)
+    return (
+			<>
+				<MainHeader></MainHeader>
+				<MainProduct></MainProduct>
+			</>
+		)
 }
 
 export default App
