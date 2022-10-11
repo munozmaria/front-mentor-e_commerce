@@ -5,7 +5,8 @@ import MainProduct from './components/products/MainProduct'
 const App = () => {
     return (
 			<>
-				<MainHeader></MainHeader>
+			<MainHeader></MainHeader>
+	
 				<MainProduct></MainProduct>
 			</>
 		)
